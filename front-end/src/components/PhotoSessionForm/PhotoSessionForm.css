@@ -1,0 +1,78 @@
+body {
+    background-position: center center; 
+    background-repeat:no-repeat;
+}
+
+.LoginForm {
+    width: 800px;
+    max-height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: rgba(240, 240, 240,.5);
+
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(179, 179, 179);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -400px;
+}
+
+.container {
+    padding-left: 60px;
+}
+
+.one-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.LoginForm .headers{
+    color: rgb(165, 165, 165);
+    font-size:2rem;
+    font-weight: 300;
+}
+.container .field-name{
+    font-size:1.5rem;
+}
+.container textarea{
+    height:5ch;
+}
+.container .field-input{
+    font-size:1.6rem;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-style: solid;
+    width: 70%;
+    height: 40px;
+}
+.LoginForm .submit-btn{
+    margin-top: 10px;
+    font-size:2rem;
+    color: white;
+    background-color: rgba(107, 171, 214,0.7);
+    border-style: none;
+    width: 40%;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+.LoginForm .submit-btn:hover{
+    background-color: rgba(107, 171, 214,1);
+}
+.container #profile-pic #file-upload-button{
+    font-size:1.6rem;
+    color: white;
+    background-color: black;
+}
+.container .error{
+    display: none;
+    color: red;
+    font-size: 1.3rem;
+    padding-left: 10%;;
+}

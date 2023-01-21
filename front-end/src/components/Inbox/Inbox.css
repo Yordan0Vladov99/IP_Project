@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    width: 40%;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    border-width: 1px;
+    text-align: center;
+  }
+  
+  .request {
+    background-color: rgb(172, 222, 255);
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+    row-gap: 20px;
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .tags {
+    margin-top: 30px;
+  }
+  
+  .session-request {
+    background-color: rgb(172, 222, 255);
+    padding: 5px;
+    border-radius: 2px;
+  }
+  
+  .request-body {
+    width: 100%;
+  }
